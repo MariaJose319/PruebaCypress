@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "cypress": "^12.4.1"
+    "cypress": "^12.4.1",
+    "typescript": "^4.9.4"
   },
   "name": "pruebacypress",
   "description": "",
