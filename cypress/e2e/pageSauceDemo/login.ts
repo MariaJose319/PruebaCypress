@@ -32,6 +32,10 @@ class LoginPage {
     public getErrorMessage (): any {
         return cy.get(this.errorMessage)
     }
+
+    public loginWithoutUserPassword (): void {
+        cy.get(this.loginButton).click()
+    } 
 }
 
 export {LoginPage};
