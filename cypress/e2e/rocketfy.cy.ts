@@ -7,7 +7,7 @@ describe ('chage Loge', ()=>{
     it('then logo is changed', () =>{
         loginPage.visitLogin();
         loginPage.login('qa2prulatam@testrocketfy.co','M1234567*');
-        configLogo.irTienda();
+        configLogo.goStore();
         configLogo.changeLogo()
     })
 })
